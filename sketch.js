@@ -38,11 +38,11 @@ function setup(){
     log5 = new Log(870,120,150, -PI/7);
     
     bird = new Bird(100,100);
-    constrainedLog = new Log(130, 180, 80, PI/2)
+    //constrainedLog = new Log(130, 180, 80, PI/2)
 
    var options = {
         bodyA: bird.body,
-        bodyB: constrainedLog,
+        bodyB: constrainedLog.body,
         stiffness: 0.04,
         length: 10
     }
