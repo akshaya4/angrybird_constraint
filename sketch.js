@@ -6,7 +6,7 @@ const Constraint = Matter.Constraint;
 var engine, world;
 var box1, pig1;
 var backgroundImg,platform;
-//var constraintedLog;
+var constraintedLog;
 var chain;
 
 function preload() {
